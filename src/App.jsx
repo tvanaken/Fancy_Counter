@@ -1,14 +1,10 @@
-import Count from "./Count";
-import Button from "./Button";
-import { useState } from "react";
+import Card from "./Card";
 
 function App() {
-    const [number, setNumber] = useState(0);
     return (
-        <div className="app">
-            <Count number={number} />
-            <Button setNumber={setNumber} />
-        </div>
+        <main>
+            <Card />
+        </main>
     );
 }
 
